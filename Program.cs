@@ -17,7 +17,7 @@ class Program
         while (numberOfQuestion < 1 || numberOfQuestion > 100)
         {
 
-            numberOfQuestion = getANumber("Numbers of question from 1 to 100: ");
+            numberOfQuestion = GetANumber("Numbers of question from 1 to 100: ");
         }
         Operation(numberOfQuestion, lList);
     }
@@ -218,7 +218,7 @@ class Program
             }
             else { Console.Write($"{aList[i]} - "); }
         }
-        int answer = getANumber("\nEquals to: ");
+        int answer = GetANumber("\nEquals to: ");
 
         if (answer != result)
         {
@@ -242,7 +242,7 @@ class Program
             }
             else { Console.Write($"{aList[i]} * "); }
         }
-        int answer = getANumber("\nEquals to: ");
+        int answer = GetANumber("\nEquals to: ");
 
         if (answer != result)
         {
@@ -266,7 +266,7 @@ class Program
             }
             else { Console.Write($"{aList[i]} / "); }
         }
-        int answer = getANumber("\nEquals to: ");
+        int answer = GetANumber("\nEquals to: ");
 
         if (answer != result)
         {
