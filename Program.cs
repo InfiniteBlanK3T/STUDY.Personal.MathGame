@@ -59,7 +59,7 @@ class Program
         }
     }
 
-    static int getANumber(string aString)
+    static int GetANumber(string aString)
     {
         Console.Write(aString);
         string numberInput = Console.ReadLine();
